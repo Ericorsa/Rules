@@ -1,0 +1,17 @@
+# NAME: EmbyDirect
+# DESCRIPTION: 自用Emby分流 使用"DIRECT"策略组
+#起点站
+DOMAIN,cdn.qdz1.top,DIRECT
+#入境
+DOMAIN,rjgg.xytx.org,DIRECT
+DOMAIN,rjdd.xylyra.com,DIRECT
+#Youno
+DOMAIN,jp.younoyes.com,DIRECT
+DOMAIN,us.younoyes.com,DIRECT
+#KFCV50
+DOMAIN,kfc.v50.su,DIRECT
+DOMAIN,emby.v50.su,DIRECT
+#ME
+DOMAIN-SUFFIX,mebimmer.de,DIRECT
+#
+DOMAIN,a.tiangou.xyz,DIRECT
