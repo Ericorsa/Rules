@@ -1,5 +1,10 @@
-# NAME: Emby
-# DESCRIPTION: 自用Emby分流 使用前建议添加"Emby"策略组
+#!name=Emby.list
+#!desc=自用Emby分流，使用前添加"Emby"策略组
+#!author=Eric
+#!icon=https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/emby.png
+#!tag=分流
+
+[Rule]
 #起点站
 DOMAIN,nb.28.al,Emby
 DOMAIN,cdn.qdz1.top,DIRECT
