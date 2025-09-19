@@ -1,6 +1,6 @@
 #!name=Emby.list
-#!desc=自用Emby分流，使用前添加"Emby"策略组
-#!author=Eric
+#!desc=自用Emby分流，使用前添加"Emby"策略组，并在详情页将[PROXY]指向"Emby"策略组。
+#!author=Eric[https://github.com/Ericorsa]
 #!icon=https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/emby.png
 #!tag=分流
 
