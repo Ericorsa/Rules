@@ -1,6 +1,10 @@
-# NAME: IPTV
-# DESCRIPTION: 自用IPTV分流
+#!name=IPTV.list
+#!desc=自用IPTV分流
+#!author=Eric[https://github.com/Ericorsa]
+#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TVB.png
+#!tag=分流
 
+[Rule]
 DOMAIN-SUFFIX,bit.ly,PROXY
 DOMAIN-SUFFIX,iill.top,PROXY
 DOMAIN-SUFFIX,946985.xyz,PROXY
