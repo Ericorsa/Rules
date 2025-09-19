@@ -1,0 +1,24 @@
+# NAME: IPTV
+# DESCRIPTION: 自用IPTV分流
+
+DOMAIN-SUFFIX,bit.ly,PROXY
+DOMAIN-SUFFIX,iill.top,PROXY
+DOMAIN-SUFFIX,946985.xyz,PROXY
+DOMAIN-SUFFIX,jdshipin.com,PROXY
+DOMAIN-SUFFIX,ibbtv.cn,PROXY
+DOMAIN-SUFFIX,163189.xyz,PROXY
+DOMAIN-SUFFIX,fengshows.cn,PROXY
+DOMAIN-SUFFIX,hkstv.tv,PROXY
+DOMAIN-SUFFIX,loc.cc,PROXY
+DOMAIN-SUFFIX,qzz.io,PROXY
+DOMAIN-SUFFIX,1678520.xyz,PROXY
+IP-CIDR,203.205.191.53/32,PROXY,no-resolve
+#研究所
+DOMAIN,pendy.dpdns.org,US
+DOMAIN,smart.pendy.dpdns.org,US
+DOMAIN,sport.pendy.dpdns.org,US
+DOMAIN,docker.livednow.dpdns.org,US
+DOMAIN,ofissaifreepc.akamaized.net,TW
+DOMAIN-SUFFIX,cdn.hinet.net,TW
+DOMAIN,4gtvfree-mozai.4gtv.tv,TW
+DOMAIN,api2.4gtv.tv,TW
