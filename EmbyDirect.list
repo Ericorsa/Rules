@@ -1,5 +1,10 @@
-# NAME: EmbyDirect
-# DESCRIPTION: 自用Emby分流 使用"DIRECT"策略组
+#!name=EmbyDirect.list
+#!desc=自用Emby分流，使用"DIRECT"策略组。
+#!author=Eric[https://github.com/Ericorsa]
+#!icon=https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/emby.png
+#!tag=分流
+
+[Rule]
 #起点站
 DOMAIN,cdn.qdz1.top,DIRECT
 #入境
