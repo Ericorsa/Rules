@@ -33,6 +33,8 @@ DOMAIN-SUFFIX,mebimmer.de,DIRECT
 DOMAIN,emby.kongcheng666.dpdns.org,PROXY
 DOMAIN-SUFFIX,feiniu.lol,Emby
 DOMAIN,us.nanflix.net,Emby
+DOMAIN,emby.my,Emby
+DOMAIN,a.emby.my,DIRECT
 DOMAIN,emby.heisi.org,Emby
 DOMAIN,a.tiangou.xyz,DIRECT
 DOMAIN,yinhai.aiinyue.com,Emby
