@@ -5,10 +5,8 @@
 #!tag=分流
 
 [Rule]
-DOMAIN,nb.28.al,Emby
-DOMAIN,cdn.qdz1.top,DIRECT
-DOMAIN,free.28.al,Emby
-DOMAIN,free3.28.al,Emby
+DOMAIN-SUFFIX,28.al,Emby
+DOMAIN-SUFFIX,qdz1.top,DIRECT
 DOMAIN,rjggcf.rjf37.com,Emby
 DOMAIN,rjgg.xytx.org,DIRECT
 DOMAIN,rjdd.xylyra.com,DIRECT
