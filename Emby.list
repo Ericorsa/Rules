@@ -30,6 +30,8 @@ DOMAIN,kfc.v50.su,DIRECT
 DOMAIN,emby.v50.su,DIRECT
 DOMAIN,cloudflare.v50.su,Emby
 DOMAIN-SUFFIX,mebimmer.de,DIRECT
+DOMAIN,link01.okemby.org,Emby
+DOMAIN,link00.okemby.org,DIRECT
 #HK/SG
 DOMAIN,emby.kongcheng666.dpdns.org,PROXY
 DOMAIN-SUFFIX,feiniu.lol,Emby
