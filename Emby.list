@@ -7,11 +7,9 @@
 [Rule]
 DOMAIN-SUFFIX,28.al,Emby
 DOMAIN-SUFFIX,qdz1.top,DIRECT
-DOMAIN,rjggcf.rjf37.com,Emby
-DOMAIN,rjgg.xytx.org,DIRECT
-DOMAIN,rjdd.xylyra.com,DIRECT
-DOMAIN,rjggde.xytx.org,Emby
-DOMAIN,rjgghk.rjf37.com,Emby
+DOMAIN-SUFFIX,rjf37.com,Emby
+DOMAIN-SUFFIX,xytx.org,Emby
+DOMAIN-SUFFIX,xylyra.com,DIRECT
 DOMAIN,www.lilyemby.my,Emby
 DOMAIN,cdn.lilyemby.my,DIRECT
 DOMAIN,tx.lilyemby.my,DIRECT
