@@ -10,9 +10,10 @@ DOMAIN-SUFFIX,qdz1.top,DIRECT
 DOMAIN-SUFFIX,rjf37.com,Emby
 DOMAIN-SUFFIX,xytx.org,Emby
 DOMAIN-SUFFIX,xylyra.com,DIRECT
-DOMAIN,www.lilyemby.my,Emby
-DOMAIN,cdn.lilyemby.my,DIRECT
-DOMAIN,tx.lilyemby.my,DIRECT
+DOMAIN,www.lilyemby.com,Emby
+DOMAIN,cdn.lilyemby.com,DIRECT
+DOMAIN,tx.lilyemby.com,DIRECT
+DOMAIN,aliyun.lilyemby.com,DIRECT
 DOMAIN,emby.younoyes.com,Emby
 DOMAIN,jp.younoyes.com,DIRECT
 DOMAIN,us.younoyes.com,DIRECT
