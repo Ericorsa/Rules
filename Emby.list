@@ -30,6 +30,9 @@ DOMAIN,cloudflare.v50.su,Emby
 DOMAIN-SUFFIX,mebimmer.de,DIRECT
 DOMAIN,link00.okemby.org,Emby
 DOMAIN,link01.okemby.org,DIRECT
+DOMAIN,mi.miraiemby.com,Emby
+DOMAIN,mi2.miraiemby.com,DIRECT
+DOMAIN,mi3.miraiemby.com,DIRECT
 #HK/SG
 DOMAIN,emby.kongcheng666.dpdns.org,PROXY
 DOMAIN-SUFFIX,feiniu.lol,Emby
