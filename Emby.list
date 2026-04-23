@@ -6,6 +6,7 @@
 
 [Rule]
 DOMAIN-SUFFIX,28.al,Emby
+DOMAIN,test.startspoint.com,Emby
 DOMAIN-SUFFIX,qdz1.top,DIRECT
 DOMAIN-SUFFIX,rjf37.com,Emby
 DOMAIN-SUFFIX,xytx.org,Emby
