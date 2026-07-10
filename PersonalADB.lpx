@@ -1,0 +1,57 @@
+#!name=自用插件
+#!desc=分流，脚本，复写
+#!author=
+#!icon=person.crop.square
+#!date=
+
+[Rule]
+#qinlinkaimen
+DOMAIN, mall-dsp2.qinlinkeji.com, REJECT
+DOMAIN, mallapi2.qinlinkeji.com, REJECT
+#meituan&waimai
+DOMAIN-SUFFIX,ad.e.waimai.sankuai.com,REJECT
+DOMAIN-SUFFIX,mads.meituan.com,REJECT
+DOMAIN-SUFFIX,analytics.meituan.net,REJECT
+DOMAIN-SUFFIX,wmlog.meituan.com,REJECT
+DOMAIN-SUFFIX,dreport.meituan.net,REJECT
+DOMAIN-SUFFIX,d.meituan.net,REJECT
+#tonghuashun
+DOMAIN,adm.10jqka.com.cn,REJECT
+#DOMAIN,stat.10jqka.com.cn,REJECT
+DOMAIN-SUFFIX,ad.thsi.cn,REJECT
+#douban
+#DOMAIN-SUFFIX,erebor.douban.com,REJECT
+DOMAIN-SUFFIX,ad.doubanio.com,REJECT
+
+[Rewrite]
+#qinlinkaimen
+^https:\/\/qadx\.qinlinad\.com\/ad\/ reject-dict
+#meituan&waimai
+^https?:\/\/.*\.meituan\.com\/api\/v\d\/(openscreen\?ad|appstatus\?ad|loadInfo\?|startpicture) - reject-200
+^https?:\/\/img\.meituan\.net\/(bizad|brandCpt)\/\w+\.(png|jpg) - reject-200
+^http:\/\/s3plus\.meituan\.net\/.*\/brandcpt-vedio\/.*\?time - reject-200
+^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4) reject-img
+^https?:\/\/img\.meituan\.net\/goodsawardpic\/[a-f0-9]+\.png\.webp reject-img
+^https?:\/\/s3plus\.meituan\.net\/ocean-blk-index\/index\/blk_conf_73\.json reject-dict
+^https?:\/\/s3plus\.meituan\.net\/v1\/mss_\w+\/(brandcpt-vedio|waimai-alita)\/\w+\.zip$ reject-dict
+^http:\/\/59\.82\.113\.10\/amdc\/mobileDispatch\?appkey=213807& reject-dict
+#tonghuashun
+^https?:\/\/adm\.10jqka\.com\.cn\/interface\/ad\/recommend - reject-200
+#^https?:\/\/iphone\.ac\.qq\.com\/.*\/Support\/(?:getSystemConf|bootScreen) - reject
+#^https?:\/\/stat\.10jqka\.com\.cn\/q\?ld=mobile&id=ad - reject-dict
+#douban
+# 开屏广告
+^https?:\/\/api\.douban\.com\/v\d\/app_ads\/ reject-dict
+# 信息流广告
+^https?:\/\/api\.douban\.com\/b[^\/]*\/common_ads reject-dict
+# 广告图片
+^https?:\/\/img\d\.doubanio\.com\/view\/dale-online\/dale_ad\/ reject
+# Banner
+^https?:\/\/frodo\.douban\.com\/api\/v2\/movie\/banner reject
+# 广告统计
+^https?:\/\/erebor\.douban\.com\/count\/\?ad= reject
+
+[Mitm]
+hostname = %APPEND% wmapi.meituan.com,*.meituan.com,img.meituan.net,s3plus.meituan.net,flowplus.meituan.net,qadx.qinlinad.com,adm.10jqka.com.cn,api.douban.com,img*.doubanio.com,frodo.douban.com,erebor.douban.com
+
+#stat.10jqka.com.cn,iphone.ac.qq.com
