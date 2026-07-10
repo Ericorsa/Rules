@@ -40,15 +40,10 @@ DOMAIN-SUFFIX,ad.doubanio.com,REJECT
 #^https?:\/\/iphone\.ac\.qq\.com\/.*\/Support\/(?:getSystemConf|bootScreen) - reject
 #^https?:\/\/stat\.10jqka\.com\.cn\/q\?ld=mobile&id=ad - reject-dict
 #douban
-# 开屏广告
 ^https?:\/\/api\.douban\.com\/v\d\/app_ads\/ reject-dict
-# 信息流广告
 ^https?:\/\/api\.douban\.com\/b[^\/]*\/common_ads reject-dict
-# 广告图片
 ^https?:\/\/img\d\.doubanio\.com\/view\/dale-online\/dale_ad\/ reject
-# Banner
 #^https?:\/\/frodo\.douban\.com\/api\/v2\/movie\/banner reject
-# 广告统计
 #^https?:\/\/erebor\.douban\.com\/count\/\?ad= reject
 
 [Mitm]
