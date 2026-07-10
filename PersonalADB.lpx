@@ -52,6 +52,6 @@ DOMAIN-SUFFIX,ad.doubanio.com,REJECT
 #^https?:\/\/erebor\.douban\.com\/count\/\?ad= reject
 
 [Mitm]
-hostname = %APPEND% wmapi.meituan.com,*.meituan.com,img.meituan.net,s3plus.meituan.net,flowplus.meituan.net,qadx.qinlinad.com,adm.10jqka.com.cn,api.douban.com,img*.doubanio.com,frodo.douban.com,erebor.douban.com
+hostname = %APPEND% wmapi.meituan.com,*.meituan.com,img.meituan.net,s3plus.meituan.net,flowplus.meituan.net,qadx.qinlinad.com,adm.10jqka.com.cn,api.douban.com,img*.doubanio.com
 
-#stat.10jqka.com.cn,iphone.ac.qq.com
+#stat.10jqka.com.cn,iphone.ac.qq.com,frodo.douban.com,erebor.douban.com
