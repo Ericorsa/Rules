@@ -47,9 +47,9 @@ DOMAIN-SUFFIX,ad.doubanio.com,REJECT
 # 广告图片
 ^https?:\/\/img\d\.doubanio\.com\/view\/dale-online\/dale_ad\/ reject
 # Banner
-^https?:\/\/frodo\.douban\.com\/api\/v2\/movie\/banner reject
+#^https?:\/\/frodo\.douban\.com\/api\/v2\/movie\/banner reject
 # 广告统计
-^https?:\/\/erebor\.douban\.com\/count\/\?ad= reject
+#^https?:\/\/erebor\.douban\.com\/count\/\?ad= reject
 
 [Mitm]
 hostname = %APPEND% wmapi.meituan.com,*.meituan.com,img.meituan.net,s3plus.meituan.net,flowplus.meituan.net,qadx.qinlinad.com,adm.10jqka.com.cn,api.douban.com,img*.doubanio.com,frodo.douban.com,erebor.douban.com
